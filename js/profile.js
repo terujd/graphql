@@ -348,6 +348,7 @@ function logout() {
     document.getElementById("from").textContent = `${calculateAge(
       user.attrs.dateOfBirth
     )} Years old from ${user.attrs.country}`;
+    
   }
   function generateGraphs(user) {
     // Use the user data to generate the SVG graphs
@@ -379,3 +380,4 @@ function logout() {
     
     return `${num} ${units[i]}`;
   }
+
